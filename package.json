@@ -1,0 +1,39 @@
+{
+  "name": "mern-chat-app-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@datastax/astra-db-ts": "^1.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cassandra-driver": "^4.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@app": "src/app",
+    "@src": "src",
+    "@controllers": "src/app/controllers",
+    "@middlewares": "src/middlewares",
+    "@models": "src/app/models",
+    "@routes": "src/app/routes",
+    "@utils": "src/app/utils"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
